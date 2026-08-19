@@ -1,0 +1,101 @@
+incident_type,severity,workers_at_risk,injured_count,hazard_intensity,workers_in_danger_zone,nearest_worker_distance_m,communication_status,rescue_response_time_min,time_since_incident_min,priority
+Water Increase,Moderate,11,2,25,10,34.5,Degraded,25.6,9,MEDIUM
+Gas Leak,Moderate,14,4,35,4,8.5,Normal,23.3,33,MEDIUM
+Electrical Fault,Serious,30,1,19,17,46.4,Normal,17.5,5,HIGH
+Conveyor Accident,Critical,20,3,8,18,68.0,Normal,27.7,151,CRITICAL
+Electrical Fault,Moderate,20,5,3,6,65.5,Normal,7.8,163,MEDIUM
+Gas Leak,Serious,25,0,25,2,10.8,Normal,59.5,72,HIGH
+Water Increase,Moderate,23,0,30,17,76.5,Degraded,44.9,149,HIGH
+Water Increase,Moderate,15,2,21,15,19.3,Normal,6.9,173,MEDIUM
+Gas Leak,Serious,28,5,39,18,18.7,Lost,25.0,59,CRITICAL
+Conveyor Accident,Minor,3,0,10,0,28.6,Degraded,39.2,167,LOW
+Fire,Moderate,28,1,40,15,28.4,Normal,20.2,137,HIGH
+Electrical Fault,Serious,28,5,13,15,15.6,Normal,19.3,33,CRITICAL
+Roof Fall,Minor,18,0,20,12,55.5,Normal,48.9,94,LOW
+Roof Fall,Serious,16,5,18,10,35.6,Degraded,52.5,12,CRITICAL
+Electrical Fault,Moderate,31,1,13,5,77.5,Degraded,43.5,69,MEDIUM
+Electrical Fault,Serious,32,2,22,15,25.9,Normal,39.8,169,HIGH
+Fire,Minor,33,3,32,17,52.2,Normal,11.3,147,MEDIUM
+Gas Leak,Moderate,22,3,37,11,22.4,Normal,13.7,144,HIGH
+Conveyor Accident,Minor,8,2,21,3,40.6,Degraded,40.0,91,LOW
+Fire,Critical,12,5,28,8,3.0,Normal,23.0,114,CRITICAL
+Water Increase,Moderate,31,5,27,13,41.6,Degraded,39.6,71,CRITICAL
+Conveyor Accident,Critical,19,3,22,2,43.2,Normal,15.3,12,HIGH
+Conveyor Accident,Serious,14,1,20,5,65.6,Normal,50.5,66,MEDIUM
+Electrical Fault,Moderate,18,5,9,12,65.1,Normal,52.4,85,HIGH
+Gas Leak,Minor,21,2,43,5,78.1,Normal,9.7,91,LOW
+Electrical Fault,Critical,35,0,13,13,63.7,Degraded,34.8,113,CRITICAL
+Fire,Minor,34,1,48,1,3.7,Normal,28.3,87,MEDIUM
+Water Increase,Serious,25,4,20,1,16.1,Normal,20.1,59,HIGH
+Electrical Fault,Minor,14,1,5,0,70.8,Normal,53.7,67,LOW
+Roof Fall,Minor,20,1,25,11,3.3,Lost,48.3,42,HIGH
+Fire,Critical,28,4,42,15,31.5,Normal,31.0,27,CRITICAL
+Roof Fall,Serious,20,3,25,4,49.9,Normal,33.3,119,HIGH
+Roof Fall,Moderate,24,4,14,10,26.4,Normal,24.3,93,HIGH
+Gas Leak,Minor,9,3,11,6,67.3,Degraded,17.1,136,MEDIUM
+Water Increase,Minor,28,2,23,11,4.0,Normal,56.0,145,HIGH
+Roof Fall,Moderate,4,0,13,3,31.7,Lost,18.7,100,MEDIUM
+Fire,Moderate,10,2,30,1,75.8,Normal,55.3,11,MEDIUM
+Fire,Serious,29,3,45,18,18.3,Degraded,28.0,54,CRITICAL
+Electrical Fault,Serious,34,0,4,9,79.6,Normal,45.2,36,MEDIUM
+Water Increase,Moderate,8,3,24,3,48.0,Normal,10.6,159,MEDIUM
+Conveyor Accident,Moderate,4,0,18,0,52.3,Normal,6.3,95,LOW
+Gas Leak,Serious,18,1,23,14,32.6,Degraded,28.6,56,HIGH
+Gas Leak,Moderate,4,2,31,3,27.4,Normal,53.3,110,MEDIUM
+Conveyor Accident,Serious,28,2,11,8,12.6,Normal,45.5,30,HIGH
+Gas Leak,Serious,29,3,39,1,16.5,Normal,51.8,176,HIGH
+Fire,Moderate,26,1,38,10,49.2,Lost,54.9,8,HIGH
+Electrical Fault,Serious,17,1,17,17,69.9,Normal,24.7,22,MEDIUM
+Gas Leak,Minor,4,3,20,0,74.7,Degraded,34.7,5,LOW
+Fire,Serious,23,2,42,0,67.8,Degraded,31.6,10,HIGH
+Electrical Fault,Moderate,25,3,11,15,73.8,Normal,44.9,138,HIGH
+Roof Fall,Moderate,35,1,16,17,14.6,Degraded,40.6,76,HIGH
+Conveyor Accident,Minor,34,1,11,17,25.9,Normal,42.6,79,MEDIUM
+Conveyor Accident,Moderate,18,4,12,15,54.0,Lost,26.2,71,HIGH
+Gas Leak,Moderate,32,2,33,6,34.8,Lost,27.4,68,HIGH
+Conveyor Accident,Critical,25,2,10,13,50.3,Normal,46.9,23,HIGH
+Electrical Fault,Moderate,33,2,16,11,36.1,Normal,36.0,48,MEDIUM
+Conveyor Accident,Critical,4,1,19,2,48.8,Normal,10.8,10,MEDIUM
+Fire,Moderate,29,2,43,16,61.5,Normal,11.4,12,HIGH
+Conveyor Accident,Minor,29,2,18,0,42.5,Normal,35.4,71,LOW
+Gas Leak,Minor,25,1,23,8,68.1,Normal,6.9,87,LOW
+Roof Fall,Minor,12,3,20,3,26.7,Normal,13.8,40,LOW
+Water Increase,Serious,33,2,22,12,16.3,Degraded,25.9,128,CRITICAL
+Roof Fall,Minor,30,4,17,18,40.4,Degraded,22.8,65,HIGH
+Electrical Fault,Moderate,28,1,17,7,13.5,Lost,54.7,9,HIGH
+Fire,Serious,27,3,50,2,64.0,Normal,59.9,117,HIGH
+Gas Leak,Moderate,29,2,22,8,3.7,Degraded,49.5,83,HIGH
+Roof Fall,Minor,31,2,30,10,78.6,Normal,9.1,129,MEDIUM
+Fire,Moderate,3,2,51,0,69.9,Normal,22.5,59,LOW
+Roof Fall,Moderate,21,5,19,15,61.2,Normal,37.8,69,HIGH
+Gas Leak,Serious,8,4,20,0,69.3,Normal,43.9,22,MEDIUM
+Roof Fall,Critical,23,3,20,3,3.0,Degraded,26.7,18,CRITICAL
+Conveyor Accident,Serious,34,3,3,5,75.6,Normal,41.0,115,HIGH
+Roof Fall,Moderate,5,4,17,5,51.6,Normal,11.5,95,MEDIUM
+Conveyor Accident,Moderate,34,0,13,18,39.1,Normal,49.4,172,HIGH
+Gas Leak,Moderate,19,4,14,17,32.4,Normal,25.0,112,HIGH
+Gas Leak,Moderate,12,4,26,0,12.6,Normal,22.6,77,MEDIUM
+Gas Leak,Moderate,27,2,22,10,3.0,Degraded,47.2,154,HIGH
+Water Increase,Moderate,11,4,33,7,6.0,Normal,42.8,46,HIGH
+Conveyor Accident,Critical,21,2,9,0,54.9,Normal,33.3,81,HIGH
+Fire,Serious,35,3,32,6,19.8,Normal,24.3,44,HIGH
+Fire,Moderate,9,1,48,3,37.4,Degraded,29.4,79,MEDIUM
+Conveyor Accident,Minor,30,0,21,14,72.5,Normal,51.1,120,MEDIUM
+Water Increase,Critical,24,1,25,1,79.2,Normal,8.8,42,MEDIUM
+Conveyor Accident,Moderate,23,0,13,2,55.8,Lost,29.9,162,MEDIUM
+Roof Fall,Minor,12,3,14,4,12.2,Normal,59.8,57,MEDIUM
+Roof Fall,Minor,31,3,13,16,25.9,Normal,29.8,54,MEDIUM
+Water Increase,Moderate,22,2,17,17,7.0,Normal,8.5,25,HIGH
+Conveyor Accident,Minor,35,3,2,1,53.9,Normal,11.4,87,LOW
+Water Increase,Moderate,18,1,15,15,32.1,Normal,36.1,141,MEDIUM
+Conveyor Accident,Serious,27,1,17,9,79.9,Normal,29.1,56,MEDIUM
+Fire,Serious,18,2,37,1,48.5,Normal,14.5,92,MEDIUM
+Water Increase,Critical,5,0,17,0,27.8,Normal,38.5,129,MEDIUM
+Gas Leak,Minor,7,5,14,4,58.9,Lost,33.8,178,MEDIUM
+Water Increase,Moderate,9,4,19,6,48.9,Normal,54.8,74,MEDIUM
+Gas Leak,Moderate,14,1,43,6,8.5,Normal,29.9,178,MEDIUM
+Conveyor Accident,Serious,29,2,6,5,3.9,Normal,33.6,103,HIGH
+Conveyor Accident,Minor,13,0,13,11,76.5,Degraded,8.9,116,LOW
+Water Increase,Serious,14,4,37,6,26.5,Degraded,6.5,165,HIGH
+Roof Fall,Serious,25,5,11,2,25.9,Degraded,32.4,147,HIGH
+Fire,Serious,4,4,41,3,21.5,Normal,11.4,163,HIGH
