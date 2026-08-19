@@ -1,0 +1,17 @@
+{
+  "name": "coalsafe",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Digital Mine Operations, Shift Handover & Safety Management Platform",
+  "scripts": {
+    "dev:web": "pnpm --filter @coalsafe/web dev",
+    "build:web": "pnpm --filter @coalsafe/web build",
+    "lint:web": "pnpm --filter @coalsafe/web lint",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "db:logs": "docker compose logs -f postgres"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
