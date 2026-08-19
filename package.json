@@ -1,0 +1,20 @@
+{
+  "name": "coalsafe-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build:web": "pnpm --filter web build",
+    "lint:web": "pnpm --filter web lint",
+    "dev:api": "cd apps/api && uv run uvicorn app.main:app --reload --port 8000",
+    "test:api": "cd apps/api && uv run pytest",
+    "lint:api": "cd apps/api && uv run ruff check .",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:migrate": "cd apps/api && uv run alembic upgrade head"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0",
+    "typescript": "^5.4.5"
+  }
+}
