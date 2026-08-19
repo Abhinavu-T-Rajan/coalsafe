@@ -1,0 +1,403 @@
+.mine-status {
+  display: flex;
+  justify-content: space-between;
+}
+.shift-safety {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+}
+.assessment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.form-card,
+.preview-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.form-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+.form-card input,
+.form-card select {
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0f14;
+  color: #e6edf3;
+}
+
+body::selection {
+  background: #f59e0b;
+  color: #000;
+}
+
+.dashboard {
+  min-height: 100vh;
+}
+
+body > #root {
+  min-height: 100vh;
+}
+
+#root > div {
+  max-width: 1400px;
+  margin: auto;
+  padding: 30px 40px 60px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+h1 {
+  margin: 0 0 35px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: #f5f7fa;
+  border-left: 5px solid #f59e0b;
+  padding-left: 15px;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #9ba7b4;
+}
+
+h3 {
+  margin: 0 0 8px;
+}
+
+p {
+  color: #b8c2cc;
+}
+
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+section {
+  background: #111820;
+  border: 1px solid #26313c;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 22px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   MINE STATUS
+========================= */
+
+.mine-status {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.mine-status > div {
+  background: #171f28;
+  border: 1px solid #283440;
+  border-radius: 8px;
+  padding: 20px;
+  transition: 0.2s ease;
+}
+
+.mine-status > div:hover {
+  border-color: #f59e0b;
+  transform: translateY(-2px);
+}
+
+.mine-status h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #7f8b98;
+  letter-spacing: 1px;
+}
+
+.mine-status p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #f5f7fa;
+}
+
+/* =========================
+   SHIFT + SAFETY
+========================= */
+
+.shift-safety {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.shift-safety > div {
+  background: #171f28;
+  border: 1px solid #283440;
+  border-radius: 8px;
+  padding: 22px;
+}
+
+.shift-safety h3 {
+  color: #f59e0b;
+  font-size: 24px;
+}
+
+.shift-safety p {
+  margin: 8px 0;
+}
+
+/* =========================
+   ACTIVE ALERTS
+========================= */
+
+.active-alerts {
+  border-left: 4px solid #ef4444;
+}
+
+.active-alerts h2 {
+  color: #f87171;
+}
+
+.active-alerts div {
+  background: #1b1719;
+  border: 1px solid #3a2628;
+  border-radius: 7px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.active-alerts p {
+  margin: 10px 0;
+  color: #f3caca;
+}
+
+/* =========================
+   BOTTOM SECTION
+========================= */
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.bottom-section > div {
+  background: #111820;
+}
+
+.bottom-section p {
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: 1px solid #242e38;
+}
+
+.bottom-section p:last-child {
+  border-bottom: none;
+}
+
+/* =========================
+   ASSESSMENT
+========================= */
+
+.assessment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.form-card,
+.preview-card {
+  background: #111820;
+}
+
+.form-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: #aeb9c5;
+  font-size: 14px;
+}
+
+.form-card input,
+.form-card select {
+  width: 100%;
+  padding: 12px 14px;
+  background: #171f28;
+  border: 1px solid #34414e;
+  border-radius: 6px;
+  color: #e6edf3;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-card input:focus,
+.form-card select:focus {
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.1);
+}
+
+.form-card select option {
+  background: #171f28;
+}
+
+/* =========================
+   LIVE PREVIEW
+========================= */
+
+.preview-card {
+  border-top: 3px solid #f59e0b;
+}
+
+.preview-card h2 {
+  color: #f59e0b;
+}
+
+.preview-card p {
+  background: #171f28;
+  border: 1px solid #283440;
+  border-radius: 6px;
+  padding: 12px 15px;
+  margin: 10px 0;
+}
+
+.preview-card p span {
+  color: #f59e0b;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .mine-status {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shift-safety,
+  .bottom-section,
+  .assessment {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  #root > div {
+    padding: 20px;
+  }
+
+  .mine-status {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
+.risk-result {
+  margin-top: 15px;
+}
+
+.intensity {
+  text-align: center;
+  padding: 25px;
+  background: #171f28;
+  border-radius: 8px;
+}
+
+.intensity span {
+  display: block;
+  color: #788592;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.intensity strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 42px;
+  color: #f59e0b;
+}
+
+.risk-level {
+  text-align: center;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.risk-level.critical {
+  background: #35191c;
+  color: #f87171;
+  border: 1px solid #7f1d1d;
+}
+
+.risk-level.high {
+  background: #352817;
+  color: #fbbf24;
+  border: 1px solid #92400e;
+}
+
+.risk-level.moderate {
+  background: #292817;
+  color: #facc15;
+}
+
+.measures {
+  margin-top: 25px;
+}
+
+.measures h3 {
+  color: #d9e0e7;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.measure {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 11px;
+  margin-bottom: 8px;
+  background: #171f28;
+  border-radius: 6px;
+  border-left: 3px solid #f59e0b;
+}
+
+.measure span {
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.measure p {
+  margin: 0;
+  font-size: 12px;
+  color: #b8c2cc;
+  line-height: 1.4;
+}
